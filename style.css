@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+h1 {
+    margin: 1rem 0;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    line-height: 1.5rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.box-container {
+    color: hsl(0, 0%, 100%);
+    width: 420px;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    justify-content: center;
+    border-radius: 25px;
+    padding: 36px 29px;
+}
+
+.img-container img {
+    border-radius: 50%;
+    padding: 10px;
+    background-color: hsla(217, 12%, 63%, 0.1);
+}
+
+.rating {
+    width: 100%;
+    /* margin: 10px 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating button {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: hsla(217, 12%, 63%, 0.1);
+    border: none;
+    cursor: pointer;
+    color: hsl(217, 12%, 63%);
+}
+
+.rating-btn:focus {
+    background-color: hsl(216, 12%, 54%);   
+    color:rgb(202, 206, 212);
+}
+
+.rating button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+button {
+    cursor: pointer;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    align-items: center;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 18px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+
+.submitBtn:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+
+}
+
+.thanks-container {
+    color: hsl(0, 0%, 100%);
+    width: 420px;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    justify-content: center;
+    border-radius: 25px;
+    padding: 36px 29px;
+}
+
+.hidden {
+    display: none;
+}
+
+.thanks-you-img {
+    text-align: center;
+    padding: 20px;
+}
+
+.thanks-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 6px;
+}
+
+.button-selected {
+    background-color: hsla(217, 12%, 63%, 0.1);
+    padding: 7px 18px;
+    border-radius: 15px;
+    color: hsl(25, 97%, 53%);
+}
+
+.headding-thanks {
+    text-align: center;
+}
+
+.paragraph-container {
+    text-align: center;
+}
